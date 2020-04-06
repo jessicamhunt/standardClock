@@ -1,25 +1,24 @@
 html {
   background-image: url("images/adventureTime.png");
   background-position: bottom;
-  /* margin: 0;
-    padding: 0; */
-  font-family: "helvetica neue";
+  font-family: "Comic Sans MS", cursive, sans-serif;
   text-align: center;
   font-size: 10px;
 }
 
-/* header {
-    font-size: 30px;
-    
-} */
-
 body {
   margin: 0;
+  padding: 40px;
   font-size: 2rem;
   display: flex;
   flex: 1;
   min-height: 100vh;
   align-items: center;
+}
+
+h1 {
+    color: orange;
+    text-shadow: 2px 2px black;
 }
 
 .clock {
@@ -51,16 +50,4 @@ body {
   transform: rotate(90deg);
   transition: all 0.05s;
   transition-timing-function: 0.1, 2.7, 0.58, 1;
-}
-
-.hour-hand {
-
-}
-
-.minute-hand {
-
-}
-
-.second-hand {
-    /* transform: rotate(350deg); */
 }
